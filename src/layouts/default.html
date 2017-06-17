@@ -1,0 +1,26 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Digital</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+
+    {{> header}}
+
+    {{> body}}
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjQ0SPnT3URyOz8tCZKuL3KMTSMQPtA74">
+    </script>
+    <script src="https://use.fontawesome.com/0b69f6baeb.js"></script>
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
